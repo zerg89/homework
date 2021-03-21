@@ -1,0 +1,11 @@
+.carousel-inner {
+    height: 500px;
+}
+
+.back-to-top { 
+    z-index: 1000;
+}
+
+@media (max-width: 576px) { 
+    .back-to-top{ display: none; }
+}
